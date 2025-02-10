@@ -25,12 +25,6 @@ Before running this application, ensure you have the following installed:
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   ```
-
-3. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 ## Usage
 1. Run the Flask application:
