@@ -1,4 +1,4 @@
-# Flask Image Scraper
+# Download_images_from_website
 
 This is a simple Flask web application that allows users to enter a URL, scrape images from the webpage using Selenium and BeautifulSoup, and download them as a ZIP file.
 
@@ -17,8 +17,8 @@ Before running this application, ensure you have the following installed:
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-repo/flask-image-scraper.git
-   cd flask-image-scraper
+   git clone https://github.com/your-repo/Download_images_from_website.git
+   cd Download_images_from_website
    ```
 
 2. Create a virtual environment (optional but recommended):
@@ -53,11 +53,4 @@ Before running this application, ensure you have the following installed:
 - BeautifulSoup
 - Zipfile
 
-## Notes
-- Ensure Google Chrome is installed.
-- If images do not download, check website restrictions against bots.
-- Adjust `time.sleep()` in `get_url()` if some images fail to load.
-
-## License
-This project is licensed under the MIT License.
 
